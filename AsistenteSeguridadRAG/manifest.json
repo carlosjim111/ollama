@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Asistente de Seguridad Qwen",
+  "version": "1.0",
+  "description": "Chatbot RAG local con Qwen3.5:4b para medidas de seguridad.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "http://localhost:11434"
+  ]
+}
